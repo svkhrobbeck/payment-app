@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Application</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="header__container container">
+        <nav class="header__nav nav">
+          <!-- logo -->
+          <a class="header__logo logo" href="/">
+            <h1 class="logo__text">Payments App</h1>
+          </a>
+
+          <!-- form -->
+          <form class="header__login login">
+            <input class="login__input" type="text" placeholder="Login" />
+            <input
+              class="password__input"
+              type="password"
+              placeholder="Parol"
+            />
+            <button class="login__enter">Kirish</button>
+          </form>
+
+          <!-- logout -->
+          <button class="hide header__logout">chiqish</button>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <!-- hero -->
+    <section class="hero">
+      <div class="container hero__container">
+        <!-- hero left -->
+        <div class="hero__left">
+          <div class="hero__credit-card">
+            <h2 class="hero__credit-card-title">Mening kartam</h2>
+            <div class="card">
+              <h2 class="card__heading">Credit Card</h2>
+              <img
+                class="card__img"
+                src="assets/card-chip.svg"
+                alt="card chip"
+              />
+              <p class="card__balance">$ 13,849,00</p>
+              <h2 class="card__user user">Name Surname</h2>
+              <div class="card__date-numbers-wrapper">
+                <p class="card__numbers">1234 5678 9123 4567</p>
+                <p class="card__date">01/23</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero__transfer transfer">
+            <h2 class="transfer__heading">Pul o’tkazish</h2>
+
+            <form class="transfer__form transfer-form">
+              <input
+                class="transfer__input transfer-form__card-number-input"
+                type="number"
+                placeholder="Karta raqami"
+              />
+              <input
+                class="transfer__input amount"
+                type="number"
+                placeholder="Summa"
+              />
+              <button class="transfer__send">Yuborish</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- hero right -->
+        <div class="hero__right input-output">
+          <h2 class="input-output__heading">O’tkazmalar tarixi</h2>
+          <div class="input-output__currencies">
+            <p class="input-output__currency input-output__currency--in">
+              +86,200 $
+            </p>
+            <p class="input-output__currency input-output__currency--out">
+              -56,000 $
+            </p>
+          </div>
+
+          <!-- history -->
+          <div class="input-output__history history">
+            <div class="history__item history-item">
+              <div class="history-item__info history-item-info">
+                <h2 class="history-item-info_person">Ermamatov Farrux</h2>
+                <div class="history-item-info__date-hour-wrapper">
+                  <p class="history-item-info__date">19.01.2022</p>
+                  <p class="history-item-info__hour">18:50</p>
+                </div>
+              </div>
+              <h2
+                class="history-item-info__amount history-item-info__amount--in"
+              >
+                +6,600 $
+              </h2>
+            </div>
+
+            <div class="history__item history-item">
+              <div class="history-item__info history-item-info">
+                <h2 class="history-item-info_person">Ermamatov Farrux</h2>
+                <div class="history-item-info__date-hour-wrapper">
+                  <p class="history-item-info__date">19.01.2022</p>
+                  <p class="history-item-info__hour">18:50</p>
+                </div>
+              </div>
+              <h2
+                class="history-item-info__amount history-item-info__amount--out"
+              >
+                -800 $
+              </h2>
+            </div>
+
+            <div class="history__item history-item">
+              <div class="history-item__info history-item-info">
+                <h2 class="history-item-info_person">Ermamatov Farrux</h2>
+                <div class="history-item-info__date-hour-wrapper">
+                  <p class="history-item-info__date">19.01.2022</p>
+                  <p class="history-item-info__hour">18:50</p>
+                </div>
+              </div>
+              <h2
+                class="history-item-info__amount history-item-info__amount--in"
+              >
+                +6,600 $
+              </h2>
+            </div>
+
+            <div class="history__item history-item">
+              <div class="history-item__info history-item-info">
+                <h2 class="history-item-info_person">Ermamatov Farrux</h2>
+                <div class="history-item-info__date-hour-wrapper">
+                  <p class="history-item-info__date">19.01.2022</p>
+                  <p class="history-item-info__hour">18:50</p>
+                </div>
+              </div>
+              <h2
+                class="history-item-info__amount history-item-info__amount--in"
+              >
+                +6,600 $
+              </h2>
+            </div>
+
+            <div class="history__item history-item">
+              <div class="history-item__info history-item-info">
+                <h2 class="history-item-info_person">Ermamatov Farrux</h2>
+                <div class="history-item-info__date-hour-wrapper">
+                  <p class="history-item-info__date">19.01.2022</p>
+                  <p class="history-item-info__hour">18:50</p>
+                </div>
+              </div>
+              <h2
+                class="history-item-info__amount history-item-info__amount--in"
+              >
+                +6,600 $
+              </h2>
+            </div>
+
+            <div class="history__item history-item">
+              <div class="history-item__info history-item-info">
+                <h2 class="history-item-info_person">Ermamatov Farrux</h2>
+                <div class="history-item-info__date-hour-wrapper">
+                  <p class="history-item-info__date">19.01.2022</p>
+                  <p class="history-item-info__hour">18:50</p>
+                </div>
+              </div>
+              <h2
+                class="history-item-info__amount history-item-info__amount--in"
+              >
+                +6,600 $
+              </h2>
+            </div>
+
+            <div class="history__item history-item">
+              <div class="history-item__info history-item-info">
+                <h2 class="history-item-info_person">Ermamatov Farrux</h2>
+                <div class="history-item-info__date-hour-wrapper">
+                  <p class="history-item-info__date">19.01.2022</p>
+                  <p class="history-item-info__hour">18:50</p>
+                </div>
+              </div>
+              <h2
+                class="history-item-info__amount history-item-info__amount--in"
+              >
+                +6,600 $
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /hero -->
+
+    <!-- script -->
+    <script src="assets/script.js"></script>
+  </body>
+</html>
